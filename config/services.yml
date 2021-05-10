@@ -1,0 +1,18 @@
+services:
+  prestashop.module.upgradewithdecimalfield.repository.test_repository:
+    class: UpgradeWithDecimalField\Repository\PaTestRepository
+    factory: [ '@doctrine.orm.default_entity_manager', getRepository ]
+    arguments:
+      - UpgradeWithDecimalField\Entity\PaTest
+
+  prestashop.module.upgradewitchdecimalfield.install:
+    class: UpgradeWithDecimalField\Install\Installer
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'
+
+  prestashop.module.demodoctrine.quotes.generator:
+    class: 'UpgradeWithDecimalField\Install\Generator'
+    arguments:
+      - '@prestashop.module.upgradewithdecimalfield.repository.test_repository'
+      - '@doctrine.orm.default_entity_manager'

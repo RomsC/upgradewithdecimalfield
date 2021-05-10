@@ -1,0 +1,23 @@
+{
+    "name": "romain/upgradewithdecimalfield",
+    "description": "",
+    "type": "prestashop-module",
+    "authors": [
+        {
+            "name": "Romain Couderc",
+            "email": "roms.couderc@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.3.27"
+        },
+        "prepend-autoloader": false
+    },
+    "autoload": {
+        "psr-4": {
+            "UpgradeWithDecimalField\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Pierre Augustin Caron de Beaumarchais",
+    "price": 20.9
+  },
+  {
+    "name": "Georges Bernanos",
+    "price": 30.9
+  },
+  {
+    "name": "Denis Diderot",
+    "price": 40.9
+  },
+  {
+    "name": "René Descartes",
+    "price": 50.9
+  },
+  {
+    "name": "Jean Giono",
+    "price": 60.9
+  },
+  {
+    "name": "Claude Lévi-Strauss",
+    "price": 70.9
+  },
+  {
+    "name": "Eugène Ionesco",
+    "price": 80.9
+  },
+  {
+    "name": "Blaise Pascal",
+    "price": 90.9
+  },
+  {
+    "name": "Charles de Gaulle",
+    "price": 100.9
+  },
+  {
+    "name": "Michel de Montaigne",
+    "price": 110.9
+  },
+  {
+    "name": "Henri Poincaré",
+    "price": 120.9
+  },
+  {
+    "name": "Alexandre Dumas",
+    "price": 130.9
+  },
+  {
+    "name": "Paul Valéry",
+    "price": 140.9
+  },
+  {
+    "name": "Jean de La Fontaine",
+    "price": 150.9
+  },
+  {
+    "name": "Louis Pasteur",
+    "price": 160.9
+  },
+  {
+    "name": "Antoine de Saint-Exupéry",
+    "price": 170.9
+  },
+  {
+    "name": "Jean Racine",
+    "price": 180.9
+  }
+]
